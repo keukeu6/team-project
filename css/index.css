@@ -1,40 +1,28 @@
-#container {
-    display: flex;
-    flex-direction: row;
+div#director>img{
+  height: 250px;
+  width: 150px;
+  object-fit: cover;
 }
-.sidebar {
-    width: 30%;
-    margin: 10px 0 10px 0;
-  }
-  
-  .sidebar ul {
-    margin: 0px;
-    padding: 0 10px 0 10px;
-  }
-  
-  .sidebar li {
-    display: block;
-    margin: 0px 0px 5px 0px;
-    padding: 5px 5px 5px 5px;
-    border-right: solid 2px #cccccc;
-    background-color: #eeeeee;
-  }
-  
-  .sidebar a {
-    color: #444444;
-    text-decoration: none;
-  }
-  #stintro{
-    margin: 30px 30px 30px 30px;
-  }
 
-  h1#top {
-    margin: 0;
-    padding: 10px 0 10px 0;
-    border-bottom: solid 2px #666666;
-    font-family: sans-serif;
-    font-size: 24px;
-    text-align: center;
-    color: #ffffff;
-    background-color: #333333;
-  }
+
+#top{
+  font-family: serif;
+  
+}
+
+div#name>img{
+  height: 300px;
+
+}
+
+div#weather>img{
+  height: 300px;
+  width: 535px;
+  object-fit: cover;
+}
+
+div#door>img{
+height: 300px;
+width: 535px;
+object-fit: cover;
+}
