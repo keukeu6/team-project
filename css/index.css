@@ -1,28 +1,50 @@
 div#director>img{
-  height: 250px;
-  width: 150px;
+  height: 300px;
+  width: 200px;
   object-fit: cover;
+  margin: 50px 0px 50px 150px;
 }
 
+div.img_center{
+  text-align: center;
+}
+
+h2.title_movie{
+  font-family: serif;
+}
 
 #top{
   font-family: serif;
   
 }
 
-div#name>img{
-  height: 300px;
-
+p#major_movie{
+  font-family: serif;
+  text-align: center;
+  font-size: 60px;
 }
 
-div#weather>img{
-  height: 300px;
-  width: 535px;
+div#name>img{
+  height: 350px;
+  width: 550px;
   object-fit: cover;
+  margin: 50px 150px 20px 770px;
+  
+}
+
+
+
+div#weather>img{
+  height: 350px;
+  width: 550px;
+  object-fit: cover;
+  margin: 50px 150px 20px 150px;
 }
 
 div#door>img{
-height: 300px;
-width: 535px;
+
+height: 350px;
+width: 550px;
+margin: 50px 150px 20px 770px ;
 object-fit: cover;
 }
