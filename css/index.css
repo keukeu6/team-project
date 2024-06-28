@@ -1,20 +1,27 @@
+div#director>img{
+  height: 250px;
+  width: 150px;
+  object-fit: cover;
+}
+
+
 #top{
   font-family: serif;
   
 }
 
-#name{
+div#name>img{
   height: 300px;
 
 }
 
-#weather{
+div#weather>img{
   height: 300px;
   width: 535px;
   object-fit: cover;
 }
 
-#door{
+div#door>img{
 height: 300px;
 width: 535px;
 object-fit: cover;
