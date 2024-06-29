@@ -1,28 +1,57 @@
 div#director>img{
-  height: 250px;
-  width: 150px;
+  height: 300px;
+  width: 200px;
   object-fit: cover;
+  margin: 50px 0px 50px 150px;
 }
 
+div.img_center{
+  text-align: center;
+}
+
+h2.title_movie{
+  font-family: serif;
+}
 
 #top{
   font-family: serif;
   
 }
 
-div#name>img{
-  height: 300px;
-
+p#major_movie{
+  font-family: serif;
+  text-align: center;
+  font-size: 60px;
 }
 
-div#weather>img{
+.sinkai_movie{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.sinkai_movie:not(:last-child){
+  margin-bottom: 20px;
+}
+
+.sinkai_movie:nth-child(even){
+  flex-direction: row-reverse;
+}
+
+div.sinkai_movie>img{
+  display: block;
+  width: 500px;
   height: 300px;
-  width: 535px;
   object-fit: cover;
+  margin: 100px 100px 50px 200px;
 }
 
-div#door>img{
-height: 300px;
-width: 535px;
-object-fit: cover;
+.info_movie{
+  margin: 100px;
+  width: 48%;
 }
+
+.info_movie>h2{
+  font-size: 75px;
+}
+
