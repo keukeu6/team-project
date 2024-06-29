@@ -97,7 +97,10 @@ div.sinkai_movie_right>img{
 
 .info_movie_left>p{
   font-family: serif;
+  font-size: 22px ;
+  margin-left: 330px;
 }
+
 
 .info_movie_right>p{
   font-size: 22px;
