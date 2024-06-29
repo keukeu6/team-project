@@ -24,27 +24,34 @@ p#major_movie{
   font-size: 60px;
 }
 
-div#name>img{
-  height: 350px;
-  width: 550px;
+.sinkai_movie{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.sinkai_movie:not(:last-child){
+  margin-bottom: 20px;
+}
+
+.sinkai_movie:nth-child(even){
+  flex-direction: row-reverse;
+}
+
+div.sinkai_movie>img{
+  display: block;
+  width: 500px;
+  height: 300px;
   object-fit: cover;
-  margin: 50px 150px 20px 770px;
-  
+  margin: 100px 100px 50px 200px;
 }
 
-
-
-div#weather>img{
-  height: 350px;
-  width: 550px;
-  object-fit: cover;
-  margin: 50px 150px 20px 150px;
+.info_movie{
+  margin: 100px;
+  width: 48%;
 }
 
-div#door>img{
-
-height: 350px;
-width: 550px;
-margin: 50px 150px 20px 770px ;
-object-fit: cover;
+.info_movie>h2{
+  font-size: 75px;
 }
+
