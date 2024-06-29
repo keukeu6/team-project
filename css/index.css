@@ -9,7 +9,11 @@ div.img_center{
   text-align: center;
 }
 
-h2.title_movie{
+h2.title_right{
+  font-family: serif;
+}
+
+h2.title_left{
   font-family: serif;
 }
 
@@ -19,39 +23,86 @@ h2.title_movie{
 }
 
 p#major_movie{
-  font-family: serif;
+  font-family: "游明朝",serif;
   text-align: center;
   font-size: 60px;
 }
 
-.sinkai_movie{
+.sinkai_movie_left{
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
 
-.sinkai_movie:not(:last-child){
+.sinkai_movie_left:not(:last-child){
   margin-bottom: 20px;
 }
 
-.sinkai_movie:nth-child(even){
+.sinkai_movie_left:nth-child(even){
   flex-direction: row-reverse;
 }
 
-div.sinkai_movie>img{
+div.sinkai_movie_left>img{
   display: block;
   width: 500px;
   height: 300px;
   object-fit: cover;
-  margin: 100px 100px 50px 200px;
+  margin: 50px 50px 50px 200px;
 }
 
-.info_movie{
-  margin: 100px;
+.sinkai_movie_right{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.sinkai_movie_right:not(:last-child){
+  margin-bottom: 20px;
+}
+
+.sinkai_movie_right:nth-child(even){
+  flex-direction: row-reverse;
+}
+
+div.sinkai_movie_right>img{
+  display: block;
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+  margin: 50px 200px 50px 50px;
+}
+
+.info_movie_right{
+  margin: 50px 50px 50px 75px;
   width: 48%;
 }
 
-.info_movie>h2{
-  font-size: 75px;
+.info_movie_right>h2{
+  font-size: 65px;
 }
 
+.info_movie_right>p{
+  font-family: serif;
+  
+}
+
+.info_movie_left>h2{
+  margin: 50px 50px 50px 375px;
+  width: 48%;
+}
+
+.info_movie_left>h2{
+  font-size: 65px;
+}
+
+.info_movie_left>p{
+  font-family: serif;
+}
+
+.info_movie_right>p{
+  font-size: 22px;
+}
+
+p#door{
+  margin: 0px 0px 0px 20px;
+}
