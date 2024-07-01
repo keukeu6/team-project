@@ -28,6 +28,11 @@ p#major_movie{
   font-size: 60px;
 }
 
+a{
+   color: #000000;
+   text-decoration: none;
+}
+
 .sinkai_movie_left{
   display: flex;
   justify-content: space-between;
