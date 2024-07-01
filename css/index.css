@@ -49,8 +49,8 @@ a{
 
 div.sinkai_movie_left>img{
   display: block;
-  width: 500px;
-  height: 300px;
+  width: 600px;
+  height: 400px;
   object-fit: cover;
   margin: 50px 50px 50px 200px;
 }
@@ -71,8 +71,8 @@ div.sinkai_movie_left>img{
 
 div.sinkai_movie_right>img{
   display: block;
-  width: 500px;
-  height: 300px;
+  width: 600px;
+  height: 400px;
   object-fit: cover;
   margin: 50px 200px 50px 50px;
 }
@@ -92,7 +92,7 @@ div.sinkai_movie_right>img{
 }
 
 .info_movie_left>h2{
-  margin: 50px 50px 50px 375px;
+  margin: 100px 50px 0px 305px;
   width: 48%;
 }
 
@@ -103,7 +103,8 @@ div.sinkai_movie_right>img{
 .info_movie_left>p{
   font-family: serif;
   font-size: 22px ;
-  margin-left: 330px;
+  margin-top: 75px;
+  margin-left: 230px;
 }
 
 
